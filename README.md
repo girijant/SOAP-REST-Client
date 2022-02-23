@@ -12,7 +12,7 @@ Using Rest-Client user can
 * Capturing Body/Header/StatusCode/Error-Message from the Response
 
 # REST-Client API Details :
-# 1.RestUtil.java:
+# 1. RestUtil.java:
 **a.RestUtil(String resturl, String username, String password, String contentType):**
 * where resturl is the url where to we are suppose to execute the request for example http://cdp.idc.devlab.motive.com:8180/rest
 * username and password is the credentials to trigger REST for example restuser/restpassword
@@ -30,13 +30,13 @@ Using Rest-Client user can
 **e.RestResponse executePut (String context, String requestPath)**
 * This method will return the rest response for put(to update), while calling this method to step definition we just need to pass the context and resquestPath for example /user as context and /resources/jsonSampleRequest.json as requestPath
 
-**f. RestResponse executeDelete(String context)**
+**f.RestResponse executeDelete(String context)**
 * This method will return the rest response for delete, while calling this method to step definition we just need to pass the context for example  /user/106 where user is the component and 106 is the id of the user.
 
-**g. static int generateRandomDigits(int noOfDigit)**
+**g.static int generateRandomDigits(int noOfDigit)**
 * This method is useful in the scenario where we want to maintain uniqueness for the specific field for example we want to create different user in our system and it should be unique, this method will generate random number with user input for example you can call this method in you step definition  as static String userName = "user"+RestUtil.generateRandomDigits(4);  so the number will be generated as user and randomly generated digits for exmple user1234 because we have provided as (4) as user input.
 
-# 2.RestResponse.java
+# 2. RestResponse.java
 This java file will help to Captures Body/Header/StatusCode/Error-Message from the generated Response
 
 **Sample Test**
