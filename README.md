@@ -24,7 +24,7 @@ Using Rest-Client user can
 **c.RestResponse executePost (String context, String requestPath):**
 * This method will return the rest response for post, while calling this method to step definition we just need to pass the context and resquestPath for example /user as context and /resources/jsonSampleRequest.json as requestPath
 
-**d.RestResponse executePost (String context, String requestPath, String[][] data)
+**d.RestResponse executePost (String context, String requestPath, String[][] data)**
 * This method will return the rest response for post, this can be used when we want post dynamic data through user input.
 
 **e.RestResponse executePut (String context, String requestPath)**
