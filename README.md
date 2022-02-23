@@ -46,10 +46,12 @@ This java file will help to Captures Body/Header/StatusCode/Error-Message from t
 
 # SOAP-Client Concept :
 Web services can be implemented using any programming language on any platform, provided that a standardized XML interface description called Web Services Description Language (WSDL) is available and a standardized messaging protocol called Simple Object Access Protocol (SOAP).
+
 **SOAP:** 
-SOAP is a standard protocol defined by the W3C Standard for sending and receiving web service requests and responses.Also uses the XML format to send and receive the request and hence the data is platform independent data.SOAP messages are exchanged between the provider applications and receiving application within the SOAP envelops.
+* SOAP is a standard protocol defined by the W3C Standard for sending and receiving web service requests and responses.Also uses the XML format to send and receive the request and hence the data is platform independent data.SOAP messages are exchanged between the provider applications and receiving application within the SOAP envelops.
+
 **WSDL:** 
-WSDL (Web Services Description Language) is an XML based language which will be used to describe the services offered by a web service.Also describes all the operations offered by the particular web service in the XML format. It may defines how the services can be called, i.e what input value we have to provide and what will be the format of the response it is going to generate for each kind of service.
+* WSDL (Web Services Description Language) is an XML based language which will be used to describe the services offered by a web service.Also describes all the operations offered by the particular web service in the XML format. It may defines how the services can be called, i.e what input value we have to provide and what will be the format of the response it is going to generate for each kind of service.
 
 # SOAP-Client Principles:
 A lightweight SOAP-Interface which is capable for :
