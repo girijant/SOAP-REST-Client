@@ -39,7 +39,7 @@ Using Rest-Client user can
 # 2. RestResponse.java
 This java file will help to Captures Body/Header/StatusCode/Error-Message from the generated Response
 
-**Sample Test**
+# Sample Test
 ![image](https://user-images.githubusercontent.com/17194046/155342235-aff58e21-955d-43c9-a437-ebe36db5aa8f.png)
 
 ----
